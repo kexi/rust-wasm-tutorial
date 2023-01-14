@@ -14,6 +14,6 @@ extern {
 }
 
 #[wasm_bindgen]
-pub fn greet() {
+pub1 fn greet() {
     alert("Hello, rust-wasm-tutorial!");
 }
